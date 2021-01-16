@@ -290,7 +290,48 @@ top:15pc ;
         top: 31pc;
     }
 }
-
+@media only screen and (max-width:425px){
+    .h4-section2{
+        top:22pc;
+    }
+    .div-section:hover .h4-section2{
+        top: 21pc;
+    }
+    .span-section2{
+        top:25pc;
+    }
+    .div-section:hover .span-section2{
+        top: 26pc;
+    }
+}
+@media only screen and (max-width:375px){
+    .h4-section2{
+        top:18pc;
+    }
+    .div-section:hover .h4-section2{
+        top: 17pc;
+    } 
+    .span-section2{
+        top:22pc;
+    }
+    .div-section:hover .span-section2{
+        top: 23pc;
+    } 
+}
+@media only screen and (max-width:320px){
+    .h4-section2{
+        top:17pc;
+    }
+    .div-section:hover .h4-section2{
+        top: 16pc;
+    } 
+    .span-section2{
+        top:20pc;
+    }
+    .div-section:hover .span-section2{
+        top: 21pc;
+    } 
+}
 /* ------------------------------------------------------------------- end section 2 --------------------------------------- */
 /* ------------------------------------------------------------------- start section 3 --------------------------------------- */
 .h-font{
